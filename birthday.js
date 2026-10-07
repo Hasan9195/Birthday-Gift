@@ -19,7 +19,7 @@
    plays once, then holds — living, never looping.
    ============================================================ */
 
-import gsap from 'gsap';
+import { gsap } from 'https://cdn.jsdelivr.net/npm/gsap@3.13.0/+esm';
 
 /* the pen-stroke plugin: a `drawn` 0..1 property for the underline */
 gsap.registerPlugin({
